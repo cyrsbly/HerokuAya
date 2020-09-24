@@ -138,11 +138,11 @@ def send_start(bot, update):
     text = "Hey there! My name is Haruka Aya - I'm here to help you manage your groups!\n\
 Click Help button to find out more about how to use me to my full potential.\n\n"
 
-    text += "Join [Faq Group](https://t.me/zainstechchat) ( @zainstechchat ) if you need any support or help\n\n\
-Follow [Zains Projects](https://t.me/zainsprojects) ( @ZainsProjects ) if you want to keep up with the news, updates and bot downtime!\n\n\
-\n\nWant to add me to your group? [Click here!](t.me/HarukaAyaBot?startgroup=true)"
+    text += "Join [WW Jollibee](https://t.me/wwjollibee) ( @wwjollibee ) for Werewolf\n\n\
+Follow [WW Jollibee Dumps](https://t.me/wwjollibeedumps) ( @wwjollibeedumps ) if you want to keep up with the news, updates and bot downtime!\n\n\
+\n\nWant to add me to your group? [Click here!](t.me/WWJollibee_Robot?startgroup=true)"
 
-    keyboard = [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/HarukaAyaGroup")]]
+    keyboard = [[InlineKeyboardButton(text="📢 Support", url="https://t.me/cyrsblyrobot")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Control panel", callback_data="cntrl_panel_M")]]
     keyboard += [[InlineKeyboardButton(text="🇺🇸 Language", callback_data="set_lang_"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
